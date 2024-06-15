@@ -79,7 +79,7 @@ a
 /* Section 2 */
 .sectiontwo {
     display : flex;
-    background-color: #E5E7EB;
+    background-color: white;
     flex-flow : wrap column;
     justify-content: center;
     padding : 25px;
@@ -112,4 +112,24 @@ a
     width :  200px;
     gap : 10px;
 
+}
+
+/* section 3 */
+
+.sectionthree  {
+    display : flex;
+    background-color: #E5E7EB;
+    flex-flow : wrap column;
+    text-align : center;
+    padding : 35px;
+}
+
+#quote {
+ 
+    font-size : 36px;
+    font-style : italic;
+}
+#signature {
+    padding-top : 20px;
+    font-size : 24px;
 }

@@ -133,3 +133,53 @@ a
     padding-top : 20px;
     font-size : 24px;
 }
+
+/* Section 4 */
+.sectionfour {
+    justify-content: center;
+    padding-top : 50px;
+    padding-bottom : 50px;
+}
+.sectionfourbox
+{
+    display : flex;
+    justify-content: center;
+    background-color: #3882F6;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius : 10px;
+}
+.sectionfourtext {
+    padding-right : 25px;
+}
+#sectionfourmaintext {
+    color : #F9FAF8;
+    font-weight : 700;
+}
+#sectionfoursubtext {
+    color:#E5E7EB
+}
+#sectionfoursignupbutton {
+    background-color: #3882F6;
+    border : 2px solid;
+    border-color : white;
+    color : #E5E7EB;
+    border-radius : 10px;
+    padding : 5px;
+    padding-right : 10px;
+    padding-left: 10px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    padding : 35px;
+    display : flex;
+    justify-content : center;
+}
+#footertext {
+    color : #aaaaaa;
+}

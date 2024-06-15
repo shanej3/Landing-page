@@ -1,2 +1,1 @@
-# Landing-page
-Project for learning CSS/HTML/flex
+## Kei truck themed website created to learn HTML/CSS/flex

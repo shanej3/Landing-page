@@ -5,6 +5,7 @@ body {
     
 }
 
+/* Header */
 .header, .sectionone { /* these share styling */
     padding : 20px;
     padding-left : 100px;
@@ -26,6 +27,7 @@ body {
     
 }
 
+/* Section 1 */
 .sectionone {
     display : flex;
     flex-wrap : wrap;
@@ -72,4 +74,42 @@ a
 {
     color : inherit;
     text-decoration : none;
+}
+
+/* Section 2 */
+.sectiontwo {
+    display : flex;
+    background-color: #E5E7EB;
+    flex-flow : wrap column;
+    justify-content: center;
+    padding : 25px;
+    
+}
+#sectiontwomaintext {
+    padding-bottom : 10px;
+    font-size : 36px;
+    align-self : center;
+}
+.sectiontwoimg {
+    display : flex;
+    justify-content: center;
+    gap : 10px;
+
+    
+}
+#two-one, #two-two, #two-three, #two-four { /* 4 smaller images */
+    width :  175px;
+    height : auto;
+    border : 5px solid;
+    border-color : #3882F6;
+    border-radius : 5px;
+}
+.sectiontwoimgtext {
+    display : flex;
+    justify-content: center;
+}
+#text-two-one, #text-two-two, #text-two-three, #text-two-four {
+    width :  200px;
+    gap : 10px;
+
 }
